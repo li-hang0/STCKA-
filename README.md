@@ -1,7 +1,8 @@
 # STCKA-
 代码复现 Deep Short Text Classification with Knowledge Powered Attention
 说明：测试的代码还没有写完，在获取数据的的时候获取到了str，而需要int，应该是数据集加载那个地方缺少从词转token下标的步骤。训练集上没有问题，文件中的效果是在训练集上的。
-
+只跑了数据集1
+# 基础环境：
 pytorch1.10
 需要cuda。
 # 文件说明
